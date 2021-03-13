@@ -178,6 +178,7 @@ window.addEventListener('load',function(){
         if(!repe){
             usados2[usados2.length] = numero;
             htmlGenerado+=`<td><button id='btnB1F1'> ${numero} </button></td>`
+            
             console.log(numero)
             console.log(usados2)
         } 
