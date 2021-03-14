@@ -22,7 +22,7 @@ window.addEventListener('load',function(){
             console.log(usados)
         } 
 
-
+    })
     //Mensaje al hacer click en los botones
     btnNumero1.addEventListener('click',function(){alert("Número B1"),btnNumero1.style.backgroundColor= "red";})
     btnNumero2.addEventListener('click',function(){alert("Número B2"),btnNumero2.style.backgroundColor= "red";})
@@ -3734,8 +3734,6 @@ window.addEventListener('load',function(){
 
         
     })
-
-    //MENSAJES EN BOTONES DE LAS TABLAS
     
  
-})
+});
