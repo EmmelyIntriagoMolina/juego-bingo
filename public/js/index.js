@@ -23,29 +23,6 @@ window.addEventListener('load',function(){
         } 
 
 
-
-        usados2 = []
-        numero=Math.round(Math.random()*(numInicialB-numFinalB)+numFinalB)
-        var repe = false;
-        console.log(numero)
-        for(var i=0;i<usados2.length;i++){
-            if(usados2[i] == numero){
-                repe = true;
-            }
-        }
-        if(!repe){
-            usados2[usados2.length] = numero;
-            htmlGenerado+=`<td> ${numero} </td>`
-            console.log(numero)
-            console.log(usados2)
-        } 
-
-
-
-
-    });
-
-
     //Mensaje al hacer click en los botones
     btnNumero1.addEventListener('click',function(){alert("Número B1"),btnNumero1.style.backgroundColor= "red";})
     btnNumero2.addEventListener('click',function(){alert("Número B2"),btnNumero2.style.backgroundColor= "red";})
