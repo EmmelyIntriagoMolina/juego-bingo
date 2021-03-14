@@ -577,6 +577,9 @@ window.addEventListener('load',function(){
 
         htmlGenerado+="</tr>"
         htmlGenerado+="<tr>"
+        htmlGenerado+="<td colspan=5>¡GANÉ! </td>"
+        htmlGenerado+="</tr>"
+        htmlGenerado+="</table>"
         tabla1.innerHTML=htmlGenerado;        
     })
 
